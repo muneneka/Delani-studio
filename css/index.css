@@ -22,6 +22,9 @@
 .design.p{
   text-align: center;
 }
+.what-we-do{
+  float: right;
+}
 #first {
   position: relative;
   text-align: center;
