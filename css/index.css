@@ -1,4 +1,8 @@
-#services.{
+
+*{
+  margin-bottom: 10px;
+}
+#service.center{
     position: absolute;
   top: 50%;
   left: 50%;
@@ -6,9 +10,54 @@
   color: blueviolet;
   font-size: 50px;
 }
+#middle{
+  align-content: center;
+}
+.middle-centered .p{
+  text-align: center;
+}
 .info{
   text-align: center;
 }
 .design.p{
   text-align: center;
+}
+#first {
+  position: relative;
+  text-align: center;
+  color:white;
+  font-size: 40px;
+}
+.first-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#services{
+  position: relative;
+  text-align: center;
+  color:white;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#me-form{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-30%, -50%);
+}
+.icons ul{
+  display: inline-flex;
+  list-style: none;
+  color:#fff;
+}
+.icons ul li{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
 }
